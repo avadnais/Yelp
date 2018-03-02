@@ -1,0 +1,23 @@
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import org.json.JSONException;
+
+import java.io.IOException;
+
+public class Main extends Application {
+
+    @Override
+    public void start(Stage primaryStage) throws Exception{
+        Parent root = FXMLLoader.load(getClass().getResource("GUI.fxml"));
+        primaryStage.setTitle("Similar Business Generator");
+        primaryStage.setScene(new Scene(root, 638, 453));
+        primaryStage.show();
+    }
+
+    public static void main(String args[]) throws IOException, JSONException {
+        launch(args);
+    }
+}

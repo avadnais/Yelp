@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="org.apache.commons.io">
+    <archive path="/Users/andyvadnais/Downloads/org.apache.commons.io.jar" />
+  </library>
+  <library name="org.json">
+    <archive path="/Users/andyvadnais/Downloads/org.json.jar" />
+  </library>
+</eclipse-userlibraries>
+

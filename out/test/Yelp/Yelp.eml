@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/Yelp"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$"/>
+	</contentEntry>
+	<levels>
+		<level name="org.json" value="project"/>
+		<level name="org.apache.commons.io" value="project"/>
+	</levels>
+</component>
